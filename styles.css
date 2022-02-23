@@ -1,0 +1,102 @@
+body {
+  text-align: left;
+  background: rgb(253, 253, 253);
+}
+.strumento{
+  background: rgb(253, 253, 253);
+  border: 1px solid rgb(173, 173, 173);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 142px;
+  padding: 10px;
+  margin-left: 20px;
+}
+h4{
+  text-align: center;
+}
+.main { 
+  float: right;
+  width: 80%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.riga {
+  margin: 13px;
+  display: inline-block;
+}
+.card{ 
+  background: rgb(253, 253, 253);
+    border: 1px solid grey;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    margin-left : 150px;
+    margin-top: 40px;
+    display: inline-block;
+    font-weight: bold;
+  
+}
+h3{
+  text-align: center;
+}
+.sidebar{ 
+  text-align: center;
+  border: 1px solid black;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgb(253, 253, 253);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+p{
+  margin: 0;
+  text-align: left;
+}
+h5 {
+  color: rgb(153, 153, 153);
+  margin-bottom: 0;
+  text-align: left;
+}
+.tasto{
+  text-align: center;
+  height: 45px;
+  bottom: 0%;
+  border: 3px solid crimson;
+  margin: auto;
+  color: crimson;
+}
+.strumento{
+  align-items: ;
+}
+.barra{
+  text-align:;
+  background-color: rgb(253, 253, 253);
+  height: 9%;
+  border-bottom: 1px solid black;
+  align-items: center;
+  display:;
+}
+.menu {
+  display: block;
+  margin-top: 1rem;
+}
+
+.menu .item {
+  display: inline-block;
+}
+
+.menu .item a {
+  color: #333333;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.menu .item.selected {
+  border-bottom: 3px solid red;
+}
